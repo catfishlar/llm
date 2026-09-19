@@ -3,6 +3,11 @@
 resources:
   * [Harness Engineering Masterclass: Technical Deep Dive on how to build Agentic Systems](https://www.youtube.com/watch?v=mQfTdNVCOB0)
 
+### Overview 
+
+> Harness engineering is how we move from clever agents to dependable systems, 
+> The model is still important, but reliability gets built in the system around the model.
+
 ### The Model
 
 ### The Runtime Environment 
