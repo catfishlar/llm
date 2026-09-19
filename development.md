@@ -94,3 +94,45 @@ Mirror says.. do it like this thing you have in your context.
 
 
 ### Common Pitfalls
+
+#### Context
+
+Think about what files need to be changed.  These should only be the ones thatneed changed.  
+
+Do not add to many. 
+
+#### Prompt
+
+Use IDK words.  Information Dense Keywords
+
+#### Model
+
+Dont use a weak model or a too powerful model. 
+
+### Aider Configuration File
+
+In the paicc-* diretories there is a `.aider.conf.yml.example`
+
+You can configure lots of things in aider and put it in `.aider.conf.yml`
+
+ * model:  you can set to something and when you type aider you'll see that. 
+   * Find a model with /models <text>  (example `/models sonnet`)
+   * Note you can set the model with /model
+ * Default file:  Always add certain files.. which can ge guides and docs. 
+ * read:  Read only file. used for info.   Note this can be array yaml.
+   * at the command like you have /read-only to do that interactively
+ * test-cmd: and auto-test:  for testing.
+ * interactive check with `/settings`
+
+Config info 
+
+### Spec Coding
+
+3 ideas:
+ * Reasoning Models
+ * Spec/Plan 
+ * Aider Architect Mode
+   * Prompt Chaining
+
+
+
